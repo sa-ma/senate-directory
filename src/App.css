@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.content {
+  padding: 2rem 1rem;
+  width: 50%;
+  margin: 0 auto;
+  min-height: 100vh
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 1rem;
+}
+input[type='search'] {
+  padding: 10px 30px;
+}
+.ais-Hits-list {
+  flex-direction: column;
+  padding: 1rem;
+  margin-left: 0;
+}
+.ais-Hits-item {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  margin-left: 0;
+}
+.senator-details {
+  display: flex;
+  justify-content: space-between;
+}
+.senator-state {
+  font-size: 14px;
+}
+.icon-link {
+  margin: 0 10px;
+}
+.fa-phone,
+.hearts {
+  color: red;
+}
+.fa-envelope {
+  color: #0096db;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: whitesmoke;
+  background-color: #0096db;
+}
+
+@media screen and (max-width: 599px) {
+  .content {
+    width: 80%;
+  }
+}
