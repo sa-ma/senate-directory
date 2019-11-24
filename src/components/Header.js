@@ -6,7 +6,7 @@ const Header = () => (
     <h1 className="title">Senate Members Directory</h1>
     <SearchBox
       className="search-bar"
-      translations={{ placeholder: 'Search by State' }}
+      translations={{ placeholder: 'Search by State or Name' }}
     />
   </header>
 );

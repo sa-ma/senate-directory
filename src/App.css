@@ -68,6 +68,9 @@ input[type='search'] {
 .fa-envelope {
   color: #0096db;
 }
+.fa-sms{
+  color:  #ffa500 
+}
 
 footer {
   text-align: center;
@@ -79,6 +82,6 @@ footer {
 
 @media screen and (max-width: 599px) {
   .content {
-    width: 80%;
+    width: 95%;
   }
 }
