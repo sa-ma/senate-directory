@@ -15,7 +15,7 @@ const Hit = ({ hit }) => (
           title="send email"
           href={`mailto:${
             hit.email
-          }?subject=EndSARS - a campaign against Police Brutality &body=${message}`}
+          }?subject=Your Citizens Want You to EndSARs Now &body=${message}`}
           className="icon-link"
         >
           <i className="fas fa-envelope" />
